@@ -5,7 +5,14 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 103.181.164.1455Am8RDib
+- name: tinkered-pennies-puppies.freesocks.work2gdNYlFc
+  type: ss
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 103.181.164.145Ju1iE5CI
   type: vmess
   server: 103.181.164.145
   port: 51556
@@ -18,80 +25,14 @@ proxies:
   ws-headers:
     Host: 103.181.164.145
   tls: false
-- name: 212.192.13.91zU98WuR6
-  type: ss
-  server: 212.192.13.91
-  port: 30129?
-  password: 7e1dd4c55bf85da5
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 160.250.247.70w0auZ3qj
-  type: vmess
-  server: 160.250.247.70
-  port: 49178
-  uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: varzesh3.com
-  tls: false
-- name: r3mrcg007117fb8.cybervena.comi5G4eALc
+- name: r3mrcg007117fb8.cybervena.comt3fabKq0
   type: ss
   server: r3mrcg007117fb8.cybervena.com
   port: '50099'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   alterId: 2
   cipher: chacha20-ietf-poly1305
-- name: 193.93.169.116AveDINkZ
-  type: vmess
-  server: 193.93.169.116
-  port: '5050'
-  uuid: c8c093de-dddf-42c6-9fcb-f7313bebce2e
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: v10.hdacd.comY8QyX9C6
-  type: vmess
-  server: v10.hdacd.com
-  port: '30807'
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: '2'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: v10.hdacd.com
-  tls: false
-- name: 149.30.232.103pqGiFzmo
-  type: vmess
-  server: 149.30.232.103
-  port: '31469'
-  uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /arki?ed=2048
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 121.170.203.147LkCJVfe3
-  type: ss
-  server: 121.170.203.147
-  port: 2520
-  password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 82.198.246.250NO7BDQmk
+- name: 82.198.246.2504h3oXOPT
   type: vmess
   server: 82.198.246.250
   port: 180
@@ -104,202 +45,7 @@ proxies:
   ws-headers:
     Host: ads.x5.ru
   tls: false
-- name: hackney-latest-strike.freesocks.workQaRqrgbn
-  type: ss
-  server: hackney-latest-strike.freesocks.work
-  port: '443'
-  password: XUMTygEM1jVYIvysXKqA5T
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 217.142.138.61eZu7Gxqm
-  type: vmess
-  server: 217.142.138.61
-  port: '80'
-  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers: null
-  tls: false
-- name: jp01.scpnb.toptaVUgpmr
-  type: vmess
-  server: jp01.scpnb.top
-  port: 443
-  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
-  ws-headers:
-    Host: jp01.scpnb.top
-  tls: true
-- name: tinkered-pennies-puppies.freesocks.workpteo52bN
-  type: ss
-  server: tinkered-pennies-puppies.freesocks.work
-  port: '443'
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: hackney-latest-strike.freesocks.workgcr9ltHZ
-  type: ss
-  server: hackney-latest-strike.freesocks.work
-  port: '443'
-  password: XUMTygEM1jVYIvysXKqA5T
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 82.198.246.37f9mcgxK2
-  type: vmess
-  server: 82.198.246.37
-  port: 180
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /trTelegram🇨🇳 @WangCai2
-  ws-headers:
-    Host: Koma-YT.PAGeS.Dev
-  tls: false
-- name: 155.103.67.111hstpxbOq
-  type: vmess
-  server: 155.103.67.111
-  port: '10002'
-  uuid: 6aad7b92-2c2b-4ba6-a331-05cb6603884c
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 103.186.154.422E1N7aqU
-  type: ss
-  server: 103.186.154.42
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  alterId: 2
-  cipher: aes-256-cfb
-- name: tinkered-pennies-puppies.freesocks.workTP7cQzvl
-  type: ss
-  server: tinkered-pennies-puppies.freesocks.work
-  port: '443'
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 103.181.164.145Kh5G20tQ
-  type: vmess
-  server: 103.181.164.145
-  port: 51556
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: 103.181.164.145
-  tls: false
-- name: 47.242.186.1aZxbWw9L
-  type: vmess
-  server: 47.242.186.1
-  port: '5043'
-  uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
-  alterId: 0
-  cipher: auto
-  network: kcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 217.142.138.61pGOcjt7u
-  type: vmess
-  server: 217.142.138.61
-  port: '80'
-  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: jp07.jd.kunlunpx.comgQkoUFp5
-  type: ss
-  server: jp07.jd.kunlunpx.com
-  port: 45572
-  password: 722a54414ae6ee706ac9
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 103.186.154.42IpqCLkaP
-  type: ss
-  server: 103.186.154.42
-  port: 38388
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 2a02:6ea0:d32f::f8fe:349bo7qLriXH
-  type: vmess
-  server: 2a02:6ea0:d32f::f8fe:349b
-  port: 24202
-  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /github.com/Alvin9999-newpac/fanqiang
-  ws-headers:
-    Host: 2a02:6ea0:d32f::f8fe:349b
-  tls: false
-- name: tinkered-pennies-puppies.freesocks.workHal796xJ
-  type: ss
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: zjs001.kfc-520.comnXqWlvAD
-  type: vmess
-  server: zjs001.kfc-520.com
-  port: 10004
-  uuid: 7ff27156-744d-31ff-9703-24f6094e5729
-  alterId: 0
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 103.111.114.82XxUvGTB1
-  type: ss
-  server: 103.111.114.82
-  port: 28061
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: jp07.jd.kunlunpx.comXlM1ajPo
-  type: ss
-  server: jp07.jd.kunlunpx.com
-  port: 45572
-  password: 722a54414ae6ee706ac9
-  alterId: 2
-  cipher: aes-128-gcm
-- name: zjs001.kfc-520.comxf3p7mQ2
-  type: vmess
-  server: zjs001.kfc-520.com
-  port: 10003
-  uuid: 7ff27156-744d-31ff-9703-24f6094e5729
-  alterId: 0
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 160.250.247.70esinWGFu
+- name: 160.250.247.703ZDMWCmc
   type: vmess
   server: 160.250.247.70
   port: 49178
@@ -312,11 +58,24 @@ proxies:
   ws-headers:
     Host: varzesh3.com
   tls: false
-- name: 155.103.67.111Yim6ga5F
+- name: 149.30.232.103fkOS3H7u
   type: vmess
-  server: 155.103.67.111
-  port: '10002'
-  uuid: 6aad7b92-2c2b-4ba6-a331-05cb6603884c
+  server: 149.30.232.103
+  port: '31469'
+  uuid: 5381445d-6ae4-4948-b61a-a16d9498d21b
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /arki?ed=2048
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 217.142.138.6178S3m1P9
+  type: vmess
+  server: 217.142.138.61
+  port: '80'
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
   alterId: '0'
   cipher: auto
   network: tcp
@@ -325,58 +84,82 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: 103.127.243.59h5q2JHIK
-  type: vmess
-  server: 103.127.243.59
-  port: 56738
-  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /ABCDE
-  ws-headers:
-    Host: 103.127.243.59
-  tls: false
-- name: 210.109.205.158Kg0tlxoq
-  type: vmess
-  server: 210.109.205.158
-  port: '55879'
-  uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 210.109.205.158MS2hdqt8
-  type: vmess
-  server: 210.109.205.158
-  port: 55879
-  uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: tinkered-pennies-puppies.freesocks.work4baIzG7U
+- name: jp07.jd.kunlunpx.comC4BS8GTk
   type: ss
-  server: tinkered-pennies-puppies.freesocks.work
-  port: '443'
-  password: hbGrpfvNrJsUmKmPbR3iY2
+  server: jp07.jd.kunlunpx.com
+  port: 45572
+  password: 722a54414ae6ee706ac9
   alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 121.170.203.1472pIQunkO
+  cipher: aes-128-gcm
+- name: chengbai02.ascwt179.comn1oKdME9
+  type: ss
+  server: chengbai02.ascwt179.com
+  port: 13223?
+  password: JVrsLLN1tkN8oXZO
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 43.207.83.60uXTHkB4J
+  type: vmess
+  server: 43.207.83.60
+  port: '20932'
+  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
+  alterId: 0
+  cipher: auto
+  network: kcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 121.170.203.147Fn6VG2RY
   type: ss
   server: 121.170.203.147
   port: 2520
   password: qwerREWQ@@
   alterId: 2
   cipher: aes-256-cfb
-- name: v9.heduian.linkGcw30lzF
+- name: tinkered-pennies-puppies.freesocks.work4xLQ9s5c
+  type: ss
+  server: tinkered-pennies-puppies.freesocks.work
+  port: '443'
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 103.130.147.400pV1Ti6P
+  type: ss
+  server: 103.130.147.40
+  port: 1122?
+  password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 103.111.114.80jogX7sdm
+  type: ss
+  server: 103.111.114.80
+  port: 28061
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 103.103.245.158Xz3DSErk
+  type: ss
+  server: 103.103.245.158
+  port: 443
+  password: ccf426f1fe78
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 3.250.25.159GN9EqJrc
+  type: ss
+  server: 3.250.25.159
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: jp07.jd.kunlunpx.comoxRaGBlK
+  type: ss
+  server: jp07.jd.kunlunpx.com
+  port: 45572
+  password: 722a54414ae6ee706ac9
+  alterId: 2
+  cipher: aes-128-gcm
+- name: v9.heduian.linkh6XupDNC
   type: vmess
   server: v9.heduian.link
   port: '30809'
@@ -389,117 +172,7 @@ proxies:
   ws-headers:
     Host: baidu.com
   tls: false
-- name: 2a02:6ea0:d32f::f8fe:349bWkO6iTcP
-  type: vmess
-  server: 2a02:6ea0:d32f::f8fe:349b
-  port: 24202
-  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /github.com/Alvin9999-newpac/fanqiang
-  ws-headers:
-    Host: 2a02:6ea0:d32f::f8fe:349b
-  tls: false
-- name: 193.93.169.1160st3JGgh
-  type: vmess
-  server: 193.93.169.116
-  port: 5050
-  uuid: c8c093de-dddf-42c6-9fcb-f7313bebce2e
-  alterId: 0
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 3.250.25.159V8mevgdw
-  type: ss
-  server: 3.250.25.159
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: hackney-latest-strike.freesocks.workyfiMBKX3
-  type: ss
-  server: hackney-latest-strike.freesocks.work
-  port: '443'
-  password: XUMTygEM1jVYIvysXKqA5T
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 153.75.235.41hNBp96fV
-  type: vmess
-  server: 153.75.235.41
-  port: '8080'
-  uuid: 002b7948-b104-4e1d-f251-fc372006e8f5
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers: null
-  tls: false
-- name: 3.250.25.159PQekaTRg
-  type: ss
-  server: 3.250.25.159
-  port: 443
-  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 103.130.147.40FOjQrR1c
-  type: ss
-  server: 103.130.147.40
-  port: 1122?
-  password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=
-  alterId: 2
-  cipher: aes-256-gcm
-- name: chengbai02.ascwt179.comEHhuSayZ
-  type: ss
-  server: chengbai02.ascwt179.com
-  port: 13223?
-  password: JVrsLLN1tkN8oXZO
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 217.142.138.61hgmzsirQ
-  type: vmess
-  server: 217.142.138.61
-  port: '80'
-  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 23.236.68.161NAhJdBte
-  type: vmess
-  server: 23.236.68.161
-  port: '57518'
-  uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: renderer-stream-1-411.mirra.nowWoJwtzQV
-  type: vmess
-  server: renderer-stream-1-411.mirra.now
-  port: 443
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v1/gpu-stream/socket
-  ws-headers:
-    Host: renderer-stream-1-411.mirra.now
-  tls: false
-- name: 23.236.68.1611ZNTYPSk
+- name: 23.236.68.161DpS6Msud
   type: vmess
   server: 23.236.68.161
   port: 57518
@@ -511,61 +184,67 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 103.181.164.1454VHm8seC
+- name: 103.103.245.158yYG4SKBU
+  type: ss
+  server: 103.103.245.158
+  port: 443
+  password: ccf426f1fe78
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 82.198.246.37N5ulSAh1
   type: vmess
-  server: 103.181.164.145
-  port: 54022
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  server: 82.198.246.37
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
   cipher: auto
   network: tcp
   ucp: true
-  ws-path: /
+  ws-path: /trTelegram🇨🇳 @WangCai2
   ws-headers:
-    Host: 103.181.164.145
+    Host: Koma-YT.PAGeS.Dev
   tls: false
-- name: 103.111.114.710pLK3SrU
+- name: hackney-latest-strike.freesocks.worksITMWHbg
   type: ss
-  server: 103.111.114.71
-  port: 28061
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  server: hackney-latest-strike.freesocks.work
+  port: '443'
+  password: XUMTygEM1jVYIvysXKqA5T
   alterId: 2
   cipher: chacha20-ietf-poly1305
-- name: 38.54.80.160NTMgB7JY
+- name: 121.170.203.147uw03F62c
   type: ss
-  server: 38.54.80.160
-  port: 16292
-  password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: chengbai02.ascwt179.comFHja3BCi
-  type: ss
-  server: chengbai02.ascwt179.com
-  port: 13223?
-  password: JVrsLLN1tkN8oXZO
+  server: 121.170.203.147
+  port: 2520
+  password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA
   alterId: 2
   cipher: aes-128-gcm
-- name: 82.38.31.3558XGZlT3
+- name: 103.186.154.42rkBHXUua
   type: ss
-  server: 82.38.31.35
-  port: 443?
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  server: 103.186.154.42
+  port: 38388
+  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
+  alterId: 2
+  cipher: aes-128-gcm
+- name: hackney-latest-strike.freesocks.workFrVG5kNm
+  type: ss
+  server: hackney-latest-strike.freesocks.work
+  port: '443'
+  password: XUMTygEM1jVYIvysXKqA5T
   alterId: 2
   cipher: chacha20-ietf-poly1305
-- name: 153.75.235.41IbWYTAqi
+- name: zjs001.kfc-520.comQK8D5bAv
   type: vmess
-  server: 153.75.235.41
-  port: '8080'
-  uuid: 002b7948-b104-4e1d-f251-fc372006e8f5
-  alterId: '0'
+  server: zjs001.kfc-520.com
+  port: 10004
+  uuid: 7ff27156-744d-31ff-9703-24f6094e5729
+  alterId: 0
   cipher: auto
-  network: ws
+  network: null
   ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
+  ws-path: null
+  ws-headers: null
   tls: false
-- name: 82.198.246.97HgN0w3EM
+- name: 82.198.246.97TNLFS2Be
   type: vmess
   server: 82.198.246.97
   port: 180
@@ -578,7 +257,7 @@ proxies:
   ws-headers:
     Host: 4120-be04-13EF56096989.457.Pp.Ua
   tls: false
-- name: 193.93.169.116sSKOlvuW
+- name: 193.93.169.116s7oxmRS3
   type: vmess
   server: 193.93.169.116
   port: '5050'
@@ -590,21 +269,70 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: chengbai02.ascwt179.comBNmw0Htc
-  type: ss
-  server: chengbai02.ascwt179.com
-  port: 13223?
-  password: JVrsLLN1tkN8oXZO
+- name: gtm-sg-cc54q7d1q01.365cloud0285.comB3VTCJp2
+  type: vmess
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  port: 6004
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: v24.hdacd.comydu81pwC
+  type: vmess
+  server: v24.hdacd.com
+  port: 30824
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
-  cipher: aes-128-gcm
-- name: 103.103.245.158tgE8TFJe
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 217.142.138.61M2rkSWtH
+  type: vmess
+  server: 217.142.138.61
+  port: '80'
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 47.76.127.88o9J2a1Eg
+  type: vmess
+  server: 47.76.127.88
+  port: 5566
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 15.223.186.62ihNTotXO
   type: ss
-  server: 103.103.245.158
-  port: 443
-  password: ccf426f1fe78
+  server: 15.223.186.62
+  port: '443'
+  password: amazonskr05
   alterId: 2
-  cipher: aes-256-gcm
-- name: 2a02:6ea0:d32f::f8fe:349bedaEHRGV
+  cipher: aes-256-cfb
+- name: 195.133.2.2KvdgkBLp
+  type: ss
+  server: 195.133.2.2
+  port: '34898'
+  password: v2LIewZzNUsIrqODr22FVc
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 2a02:6ea0:d32f::f8fe:349bnFVgQhyH
   type: vmess
   server: 2a02:6ea0:d32f::f8fe:349b
   port: 24202
@@ -617,11 +345,50 @@ proxies:
   ws-headers:
     Host: 2a02:6ea0:d32f::f8fe:349b
   tls: false
-- name: 43.207.83.60s7Tvj1ih
+- name: 45.140.169.216P6ykoJvf
+  type: ss
+  server: 45.140.169.216
+  port: '30129'
+  password: c5fcdf7829112cb4
+  alterId: 2
+  cipher: aes-256-gcm
+- name: chengbai02.ascwt179.comnxUFX8dO
+  type: ss
+  server: chengbai02.ascwt179.com
+  port: 13223?
+  password: JVrsLLN1tkN8oXZO
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 217.142.138.61UNYS943m
   type: vmess
-  server: 43.207.83.60
-  port: '20932'
-  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
+  server: 217.142.138.61
+  port: 80
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+  alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 103.127.243.59JQvPGEgS
+  type: vmess
+  server: 103.127.243.59
+  port: 56738
+  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /ABCDE
+  ws-headers:
+    Host: 103.127.243.59
+  tls: false
+- name: 47.242.186.1mWL0bOwZ
+  type: vmess
+  server: 47.242.186.1
+  port: '5043'
+  uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
   alterId: 0
   cipher: auto
   network: kcp
@@ -629,7 +396,77 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 217.142.138.61rlDqC0dz
+- name: 153.75.235.41OFJzUAB1
+  type: vmess
+  server: 153.75.235.41
+  port: '8080'
+  uuid: 002b7948-b104-4e1d-f251-fc372006e8f5
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers: null
+  tls: false
+- name: 155.103.67.111VW53sbmQ
+  type: vmess
+  server: 155.103.67.111
+  port: '10002'
+  uuid: 6aad7b92-2c2b-4ba6-a331-05cb6603884c
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 210.109.205.158MthL3PRX
+  type: vmess
+  server: 210.109.205.158
+  port: '55879'
+  uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 2a02:6ea0:d32f::f8fe:349bGcNLsJBH
+  type: vmess
+  server: 2a02:6ea0:d32f::f8fe:349b
+  port: 24202
+  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /github.com/Alvin9999-newpac/fanqiang
+  ws-headers:
+    Host: 2a02:6ea0:d32f::f8fe:349b
+  tls: false
+- name: 109.107.182.2296Pc89qwJ
+  type: ss
+  server: 109.107.182.229
+  port: '51544'
+  password: MZeSTvpl2uoey1R0frhPyJ
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 2a02:6ea0:d32f::f8fe:349bDwmeJBSV
+  type: vmess
+  server: 2a02:6ea0:d32f::f8fe:349b
+  port: 24202
+  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /github.com/Alvin9999-newpac/fanqiang
+  ws-headers:
+    Host: 2a02:6ea0:d32f::f8fe:349b
+  tls: false
+- name: 217.142.138.618zYSFIob
   type: vmess
   server: 217.142.138.61
   port: '80'
@@ -641,7 +478,66 @@ proxies:
   ws-path: /
   ws-headers: null
   tls: false
-- name: 69.84.182.49DZBXPLil
+- name: 103.181.164.145x9ztMO8T
+  type: vmess
+  server: 103.181.164.145
+  port: 51556
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: 103.181.164.145
+  tls: false
+- name: 193.93.169.116mAvkjgWa
+  type: vmess
+  server: 193.93.169.116
+  port: '5050'
+  uuid: c8c093de-dddf-42c6-9fcb-f7313bebce2e
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 82.38.31.35Cv5Y0x7I
+  type: ss
+  server: 82.38.31.35
+  port: 443?
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 23.236.68.161RHswvVzp
+  type: vmess
+  server: 23.236.68.161
+  port: '57518'
+  uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: chengbai02.ascwt179.comVeXAysrk
+  type: ss
+  server: chengbai02.ascwt179.com
+  port: 13223?
+  password: JVrsLLN1tkN8oXZO
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 212.192.13.919Lcu4WPx
+  type: ss
+  server: 212.192.13.91
+  port: 30129?
+  password: 7e1dd4c55bf85da5
+  alterId: 2
+  cipher: aes-256-gcm
+- name: 69.84.182.49513YAqoS
   type: vmess
   server: 69.84.182.49
   port: 80
@@ -654,28 +550,147 @@ proxies:
   ws-headers:
     Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
   tls: false
-- name: tinkered-pennies-puppies.freesocks.work6WqIQo9k
-  type: ss
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 54.250.165.160cpZ4FbCg
+- name: 54.250.165.1608Uz3Ipt9
   type: ss
   server: 54.250.165.160
   port: 2377?
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   alterId: 2
   cipher: chacha20-ietf-poly1305
-- name: 103.111.114.80RA1JWpD0
+- name: tinkered-pennies-puppies.freesocks.workxBUKQF2R
   type: ss
-  server: 103.111.114.80
+  server: tinkered-pennies-puppies.freesocks.work
+  port: '443'
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: renderer-stream-1-411.mirra.now7QMCUahg
+  type: vmess
+  server: renderer-stream-1-411.mirra.now
+  port: 443
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /api/v1/gpu-stream/socket
+  ws-headers:
+    Host: renderer-stream-1-411.mirra.now
+  tls: false
+- name: 210.109.205.1583GzWFIkw
+  type: vmess
+  server: 210.109.205.158
+  port: 55879
+  uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 82.198.246.214YtTyLgfN
+  type: vmess
+  server: 82.198.246.214
+  port: 180
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: world.t.51guangtaobao.comPcQNsJSd
+  type: vmess
+  server: world.t.51guangtaobao.com
+  port: 2510
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 193.93.169.116KUYcj9rl
+  type: vmess
+  server: 193.93.169.116
+  port: 5050
+  uuid: c8c093de-dddf-42c6-9fcb-f7313bebce2e
+  alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 103.111.114.827QhwZjpe
+  type: ss
+  server: 103.111.114.82
   port: 28061
   password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
   alterId: 2
   cipher: chacha20-ietf-poly1305
-- name: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.comc4T2dh5C
+- name: hackney-latest-strike.freesocks.workpSou3KPQ
+  type: ss
+  server: hackney-latest-strike.freesocks.work
+  port: '443'
+  password: XUMTygEM1jVYIvysXKqA5T
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 103.186.154.42ZmXK6pG5
+  type: ss
+  server: 103.186.154.42
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  alterId: 2
+  cipher: aes-256-cfb
+- name: tinkered-pennies-puppies.freesocks.workylUHLhIB
+  type: ss
+  server: tinkered-pennies-puppies.freesocks.work
+  port: '443'
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 217.142.138.6117vgzSH9
+  type: vmess
+  server: 217.142.138.61
+  port: '80'
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers: null
+  tls: false
+- name: 155.103.67.111iJuOXz2c
+  type: vmess
+  server: 155.103.67.111
+  port: '10002'
+  uuid: 6aad7b92-2c2b-4ba6-a331-05cb6603884c
+  alterId: '0'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 153.75.235.41OdWGcybi
+  type: vmess
+  server: 153.75.235.41
+  port: '8080'
+  uuid: 002b7948-b104-4e1d-f251-fc372006e8f5
+  alterId: '0'
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: ''
+  tls: false
+- name: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.comWbriHTtI
   type: vmess
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
   port: '80'
@@ -688,11 +703,11 @@ proxies:
   ws-headers:
     Host: broadcastlv.chat.bilibili.com
   tls: false
-- name: 217.142.138.61xL1ngtXw
+- name: zjs001.kfc-520.com1ZiAb72r
   type: vmess
-  server: 217.142.138.61
-  port: 80
-  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+  server: zjs001.kfc-520.com
+  port: 10003
+  uuid: 7ff27156-744d-31ff-9703-24f6094e5729
   alterId: 0
   cipher: auto
   network: null
@@ -700,180 +715,253 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: r3mrcg001286ek2.cybervena.comPXqBQijp
+- name: 103.181.164.1456e1vMZwz
+  type: vmess
+  server: 103.181.164.145
+  port: 54022
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: 103.181.164.145
+  tls: false
+- name: jp01.scpnb.topxfWNtuV8
+  type: vmess
+  server: jp01.scpnb.top
+  port: 443
+  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
+  ws-headers:
+    Host: jp01.scpnb.top
+  tls: true
+- name: v10.hdacd.comFhSY1pHG
+  type: vmess
+  server: v10.hdacd.com
+  port: '30807'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: '2'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: v10.hdacd.com
+  tls: false
+- name: r3mrcg001286ek2.cybervena.comCQ6uYPLA
   type: ss
   server: r3mrcg001286ek2.cybervena.com
   port: '50099'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   alterId: 2
   cipher: chacha20-ietf-poly1305
-- name: 103.103.245.158PnNUtX7L
-  type: ss
-  server: 103.103.245.158
-  port: 443
-  password: ccf426f1fe78
-  alterId: 2
-  cipher: aes-256-gcm
-- name: tinkered-pennies-puppies.freesocks.workIjOgxJsd
+- name: tinkered-pennies-puppies.freesocks.workKsz8aUb7
   type: ss
   server: tinkered-pennies-puppies.freesocks.work
   port: '443'
   password: hbGrpfvNrJsUmKmPbR3iY2
   alterId: 2
   cipher: chacha20-ietf-poly1305
+- name: tinkered-pennies-puppies.freesocks.workwrhjLEfO
+  type: ss
+  server: tinkered-pennies-puppies.freesocks.work
+  port: 443
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: 160.250.247.70plbYhyE5
+  type: vmess
+  server: 160.250.247.70
+  port: 49178
+  uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: varzesh3.com
+  tls: false
+- name: 3.250.25.159NTi8Fum6
+  type: ss
+  server: 3.250.25.159
+  port: 443
+  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
+  alterId: 2
+  cipher: aes-128-gcm
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 103.181.164.1455Am8RDib
-  - 212.192.13.91zU98WuR6
-  - 160.250.247.70w0auZ3qj
-  - r3mrcg007117fb8.cybervena.comi5G4eALc
-  - 193.93.169.116AveDINkZ
-  - v10.hdacd.comY8QyX9C6
-  - 149.30.232.103pqGiFzmo
-  - 121.170.203.147LkCJVfe3
-  - 82.198.246.250NO7BDQmk
-  - hackney-latest-strike.freesocks.workQaRqrgbn
-  - 217.142.138.61eZu7Gxqm
-  - jp01.scpnb.toptaVUgpmr
-  - tinkered-pennies-puppies.freesocks.workpteo52bN
-  - hackney-latest-strike.freesocks.workgcr9ltHZ
-  - 82.198.246.37f9mcgxK2
-  - 155.103.67.111hstpxbOq
-  - 103.186.154.422E1N7aqU
-  - tinkered-pennies-puppies.freesocks.workTP7cQzvl
-  - 103.181.164.145Kh5G20tQ
-  - 47.242.186.1aZxbWw9L
-  - 217.142.138.61pGOcjt7u
-  - jp07.jd.kunlunpx.comgQkoUFp5
-  - 103.186.154.42IpqCLkaP
-  - 2a02:6ea0:d32f::f8fe:349bo7qLriXH
-  - tinkered-pennies-puppies.freesocks.workHal796xJ
-  - zjs001.kfc-520.comnXqWlvAD
-  - 103.111.114.82XxUvGTB1
-  - jp07.jd.kunlunpx.comXlM1ajPo
-  - zjs001.kfc-520.comxf3p7mQ2
-  - 160.250.247.70esinWGFu
-  - 155.103.67.111Yim6ga5F
-  - 103.127.243.59h5q2JHIK
-  - 210.109.205.158Kg0tlxoq
-  - 210.109.205.158MS2hdqt8
-  - tinkered-pennies-puppies.freesocks.work4baIzG7U
-  - 121.170.203.1472pIQunkO
-  - v9.heduian.linkGcw30lzF
-  - 2a02:6ea0:d32f::f8fe:349bWkO6iTcP
-  - 193.93.169.1160st3JGgh
-  - 3.250.25.159V8mevgdw
-  - hackney-latest-strike.freesocks.workyfiMBKX3
-  - 153.75.235.41hNBp96fV
-  - 3.250.25.159PQekaTRg
-  - 103.130.147.40FOjQrR1c
-  - chengbai02.ascwt179.comEHhuSayZ
-  - 217.142.138.61hgmzsirQ
-  - 23.236.68.161NAhJdBte
-  - renderer-stream-1-411.mirra.nowWoJwtzQV
-  - 23.236.68.1611ZNTYPSk
-  - 103.181.164.1454VHm8seC
-  - 103.111.114.710pLK3SrU
-  - 38.54.80.160NTMgB7JY
-  - chengbai02.ascwt179.comFHja3BCi
-  - 82.38.31.3558XGZlT3
-  - 153.75.235.41IbWYTAqi
-  - 82.198.246.97HgN0w3EM
-  - 193.93.169.116sSKOlvuW
-  - chengbai02.ascwt179.comBNmw0Htc
-  - 103.103.245.158tgE8TFJe
-  - 2a02:6ea0:d32f::f8fe:349bedaEHRGV
-  - 43.207.83.60s7Tvj1ih
-  - 217.142.138.61rlDqC0dz
-  - 69.84.182.49DZBXPLil
-  - tinkered-pennies-puppies.freesocks.work6WqIQo9k
-  - 54.250.165.160cpZ4FbCg
-  - 103.111.114.80RA1JWpD0
-  - 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.comc4T2dh5C
-  - 217.142.138.61xL1ngtXw
-  - r3mrcg001286ek2.cybervena.comPXqBQijp
-  - 103.103.245.158PnNUtX7L
-  - tinkered-pennies-puppies.freesocks.workIjOgxJsd
+  - tinkered-pennies-puppies.freesocks.work2gdNYlFc
+  - 103.181.164.145Ju1iE5CI
+  - r3mrcg007117fb8.cybervena.comt3fabKq0
+  - 82.198.246.2504h3oXOPT
+  - 160.250.247.703ZDMWCmc
+  - 149.30.232.103fkOS3H7u
+  - 217.142.138.6178S3m1P9
+  - jp07.jd.kunlunpx.comC4BS8GTk
+  - chengbai02.ascwt179.comn1oKdME9
+  - 43.207.83.60uXTHkB4J
+  - 121.170.203.147Fn6VG2RY
+  - tinkered-pennies-puppies.freesocks.work4xLQ9s5c
+  - 103.130.147.400pV1Ti6P
+  - 103.111.114.80jogX7sdm
+  - 103.103.245.158Xz3DSErk
+  - 3.250.25.159GN9EqJrc
+  - jp07.jd.kunlunpx.comoxRaGBlK
+  - v9.heduian.linkh6XupDNC
+  - 23.236.68.161DpS6Msud
+  - 103.103.245.158yYG4SKBU
+  - 82.198.246.37N5ulSAh1
+  - hackney-latest-strike.freesocks.worksITMWHbg
+  - 121.170.203.147uw03F62c
+  - 103.186.154.42rkBHXUua
+  - hackney-latest-strike.freesocks.workFrVG5kNm
+  - zjs001.kfc-520.comQK8D5bAv
+  - 82.198.246.97TNLFS2Be
+  - 193.93.169.116s7oxmRS3
+  - gtm-sg-cc54q7d1q01.365cloud0285.comB3VTCJp2
+  - v24.hdacd.comydu81pwC
+  - 217.142.138.61M2rkSWtH
+  - 47.76.127.88o9J2a1Eg
+  - 15.223.186.62ihNTotXO
+  - 195.133.2.2KvdgkBLp
+  - 2a02:6ea0:d32f::f8fe:349bnFVgQhyH
+  - 45.140.169.216P6ykoJvf
+  - chengbai02.ascwt179.comnxUFX8dO
+  - 217.142.138.61UNYS943m
+  - 103.127.243.59JQvPGEgS
+  - 47.242.186.1mWL0bOwZ
+  - 153.75.235.41OFJzUAB1
+  - 155.103.67.111VW53sbmQ
+  - 210.109.205.158MthL3PRX
+  - 2a02:6ea0:d32f::f8fe:349bGcNLsJBH
+  - 109.107.182.2296Pc89qwJ
+  - 2a02:6ea0:d32f::f8fe:349bDwmeJBSV
+  - 217.142.138.618zYSFIob
+  - 103.181.164.145x9ztMO8T
+  - 193.93.169.116mAvkjgWa
+  - 82.38.31.35Cv5Y0x7I
+  - 23.236.68.161RHswvVzp
+  - chengbai02.ascwt179.comVeXAysrk
+  - 212.192.13.919Lcu4WPx
+  - 69.84.182.49513YAqoS
+  - 54.250.165.1608Uz3Ipt9
+  - tinkered-pennies-puppies.freesocks.workxBUKQF2R
+  - renderer-stream-1-411.mirra.now7QMCUahg
+  - 210.109.205.1583GzWFIkw
+  - 82.198.246.214YtTyLgfN
+  - world.t.51guangtaobao.comPcQNsJSd
+  - 193.93.169.116KUYcj9rl
+  - 103.111.114.827QhwZjpe
+  - hackney-latest-strike.freesocks.workpSou3KPQ
+  - 103.186.154.42ZmXK6pG5
+  - tinkered-pennies-puppies.freesocks.workylUHLhIB
+  - 217.142.138.6117vgzSH9
+  - 155.103.67.111iJuOXz2c
+  - 153.75.235.41OdWGcybi
+  - 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.comWbriHTtI
+  - zjs001.kfc-520.com1ZiAb72r
+  - 103.181.164.1456e1vMZwz
+  - jp01.scpnb.topxfWNtuV8
+  - v10.hdacd.comFhSY1pHG
+  - r3mrcg001286ek2.cybervena.comCQ6uYPLA
+  - tinkered-pennies-puppies.freesocks.workKsz8aUb7
+  - tinkered-pennies-puppies.freesocks.workwrhjLEfO
+  - 160.250.247.70plbYhyE5
+  - 3.250.25.159NTi8Fum6
 - name: ♻️ 自动选择
   type: url-test
   url: http://maps.googleapis.com/maps/api/mapsjs/gen_204
   interval: 300
   proxies:
-  - 103.181.164.1455Am8RDib
-  - 212.192.13.91zU98WuR6
-  - 160.250.247.70w0auZ3qj
-  - r3mrcg007117fb8.cybervena.comi5G4eALc
-  - 193.93.169.116AveDINkZ
-  - v10.hdacd.comY8QyX9C6
-  - 149.30.232.103pqGiFzmo
-  - 121.170.203.147LkCJVfe3
-  - 82.198.246.250NO7BDQmk
-  - hackney-latest-strike.freesocks.workQaRqrgbn
-  - 217.142.138.61eZu7Gxqm
-  - jp01.scpnb.toptaVUgpmr
-  - tinkered-pennies-puppies.freesocks.workpteo52bN
-  - hackney-latest-strike.freesocks.workgcr9ltHZ
-  - 82.198.246.37f9mcgxK2
-  - 155.103.67.111hstpxbOq
-  - 103.186.154.422E1N7aqU
-  - tinkered-pennies-puppies.freesocks.workTP7cQzvl
-  - 103.181.164.145Kh5G20tQ
-  - 47.242.186.1aZxbWw9L
-  - 217.142.138.61pGOcjt7u
-  - jp07.jd.kunlunpx.comgQkoUFp5
-  - 103.186.154.42IpqCLkaP
-  - 2a02:6ea0:d32f::f8fe:349bo7qLriXH
-  - tinkered-pennies-puppies.freesocks.workHal796xJ
-  - zjs001.kfc-520.comnXqWlvAD
-  - 103.111.114.82XxUvGTB1
-  - jp07.jd.kunlunpx.comXlM1ajPo
-  - zjs001.kfc-520.comxf3p7mQ2
-  - 160.250.247.70esinWGFu
-  - 155.103.67.111Yim6ga5F
-  - 103.127.243.59h5q2JHIK
-  - 210.109.205.158Kg0tlxoq
-  - 210.109.205.158MS2hdqt8
-  - tinkered-pennies-puppies.freesocks.work4baIzG7U
-  - 121.170.203.1472pIQunkO
-  - v9.heduian.linkGcw30lzF
-  - 2a02:6ea0:d32f::f8fe:349bWkO6iTcP
-  - 193.93.169.1160st3JGgh
-  - 3.250.25.159V8mevgdw
-  - hackney-latest-strike.freesocks.workyfiMBKX3
-  - 153.75.235.41hNBp96fV
-  - 3.250.25.159PQekaTRg
-  - 103.130.147.40FOjQrR1c
-  - chengbai02.ascwt179.comEHhuSayZ
-  - 217.142.138.61hgmzsirQ
-  - 23.236.68.161NAhJdBte
-  - renderer-stream-1-411.mirra.nowWoJwtzQV
-  - 23.236.68.1611ZNTYPSk
-  - 103.181.164.1454VHm8seC
-  - 103.111.114.710pLK3SrU
-  - 38.54.80.160NTMgB7JY
-  - chengbai02.ascwt179.comFHja3BCi
-  - 82.38.31.3558XGZlT3
-  - 153.75.235.41IbWYTAqi
-  - 82.198.246.97HgN0w3EM
-  - 193.93.169.116sSKOlvuW
-  - chengbai02.ascwt179.comBNmw0Htc
-  - 103.103.245.158tgE8TFJe
-  - 2a02:6ea0:d32f::f8fe:349bedaEHRGV
-  - 43.207.83.60s7Tvj1ih
-  - 217.142.138.61rlDqC0dz
-  - 69.84.182.49DZBXPLil
-  - tinkered-pennies-puppies.freesocks.work6WqIQo9k
-  - 54.250.165.160cpZ4FbCg
-  - 103.111.114.80RA1JWpD0
-  - 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.comc4T2dh5C
-  - 217.142.138.61xL1ngtXw
-  - r3mrcg001286ek2.cybervena.comPXqBQijp
-  - 103.103.245.158PnNUtX7L
-  - tinkered-pennies-puppies.freesocks.workIjOgxJsd
+  - tinkered-pennies-puppies.freesocks.work2gdNYlFc
+  - 103.181.164.145Ju1iE5CI
+  - r3mrcg007117fb8.cybervena.comt3fabKq0
+  - 82.198.246.2504h3oXOPT
+  - 160.250.247.703ZDMWCmc
+  - 149.30.232.103fkOS3H7u
+  - 217.142.138.6178S3m1P9
+  - jp07.jd.kunlunpx.comC4BS8GTk
+  - chengbai02.ascwt179.comn1oKdME9
+  - 43.207.83.60uXTHkB4J
+  - 121.170.203.147Fn6VG2RY
+  - tinkered-pennies-puppies.freesocks.work4xLQ9s5c
+  - 103.130.147.400pV1Ti6P
+  - 103.111.114.80jogX7sdm
+  - 103.103.245.158Xz3DSErk
+  - 3.250.25.159GN9EqJrc
+  - jp07.jd.kunlunpx.comoxRaGBlK
+  - v9.heduian.linkh6XupDNC
+  - 23.236.68.161DpS6Msud
+  - 103.103.245.158yYG4SKBU
+  - 82.198.246.37N5ulSAh1
+  - hackney-latest-strike.freesocks.worksITMWHbg
+  - 121.170.203.147uw03F62c
+  - 103.186.154.42rkBHXUua
+  - hackney-latest-strike.freesocks.workFrVG5kNm
+  - zjs001.kfc-520.comQK8D5bAv
+  - 82.198.246.97TNLFS2Be
+  - 193.93.169.116s7oxmRS3
+  - gtm-sg-cc54q7d1q01.365cloud0285.comB3VTCJp2
+  - v24.hdacd.comydu81pwC
+  - 217.142.138.61M2rkSWtH
+  - 47.76.127.88o9J2a1Eg
+  - 15.223.186.62ihNTotXO
+  - 195.133.2.2KvdgkBLp
+  - 2a02:6ea0:d32f::f8fe:349bnFVgQhyH
+  - 45.140.169.216P6ykoJvf
+  - chengbai02.ascwt179.comnxUFX8dO
+  - 217.142.138.61UNYS943m
+  - 103.127.243.59JQvPGEgS
+  - 47.242.186.1mWL0bOwZ
+  - 153.75.235.41OFJzUAB1
+  - 155.103.67.111VW53sbmQ
+  - 210.109.205.158MthL3PRX
+  - 2a02:6ea0:d32f::f8fe:349bGcNLsJBH
+  - 109.107.182.2296Pc89qwJ
+  - 2a02:6ea0:d32f::f8fe:349bDwmeJBSV
+  - 217.142.138.618zYSFIob
+  - 103.181.164.145x9ztMO8T
+  - 193.93.169.116mAvkjgWa
+  - 82.38.31.35Cv5Y0x7I
+  - 23.236.68.161RHswvVzp
+  - chengbai02.ascwt179.comVeXAysrk
+  - 212.192.13.919Lcu4WPx
+  - 69.84.182.49513YAqoS
+  - 54.250.165.1608Uz3Ipt9
+  - tinkered-pennies-puppies.freesocks.workxBUKQF2R
+  - renderer-stream-1-411.mirra.now7QMCUahg
+  - 210.109.205.1583GzWFIkw
+  - 82.198.246.214YtTyLgfN
+  - world.t.51guangtaobao.comPcQNsJSd
+  - 193.93.169.116KUYcj9rl
+  - 103.111.114.827QhwZjpe
+  - hackney-latest-strike.freesocks.workpSou3KPQ
+  - 103.186.154.42ZmXK6pG5
+  - tinkered-pennies-puppies.freesocks.workylUHLhIB
+  - 217.142.138.6117vgzSH9
+  - 155.103.67.111iJuOXz2c
+  - 153.75.235.41OdWGcybi
+  - 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.comWbriHTtI
+  - zjs001.kfc-520.com1ZiAb72r
+  - 103.181.164.1456e1vMZwz
+  - jp01.scpnb.topxfWNtuV8
+  - v10.hdacd.comFhSY1pHG
+  - r3mrcg001286ek2.cybervena.comCQ6uYPLA
+  - tinkered-pennies-puppies.freesocks.workKsz8aUb7
+  - tinkered-pennies-puppies.freesocks.workwrhjLEfO
+  - 160.250.247.70plbYhyE5
+  - 3.250.25.159NTi8Fum6
 - name: 🌍 国外媒体
   type: select
   proxies:
