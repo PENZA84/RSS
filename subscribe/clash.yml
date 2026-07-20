@@ -5,147 +5,117 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-- name: 103.166.184.134PoAOexLc
+- name: jp07.jd.kunlunpx.comJhKtmVAH
+  type: ss
+  server: jp07.jd.kunlunpx.com
+  port: 45572
+  password: 722a54414ae6ee706ac9
+  alterId: 2
+  cipher: aes-128-gcm
+- name: 47.244.120.197rthKGITb
   type: vmess
-  server: 103.166.184.134
-  port: 27467
-  uuid: 93637105-bcea-4a68-b089-1bb6091f0b16
+  server: 47.244.120.197
+  port: 36703
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /arki?ed=2048
+  ws-headers:
+    Host: 47.244.120.197
+  tls: false
+- name: tg.hrmp.kdns.froliSFKGk
+  type: vmess
+  server: tg.hrmp.kdns.fr
+  port: 8443
+  uuid: af1ccd89-b66b-44e8-99b8-0d945078c04b
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /tirexvmess
+  ws-headers:
+    Host: tg.hrmp.kdns.fr
+  tls: true
+- name: 47.244.120.197val20iK5
+  type: vmess
+  server: 47.244.120.197
+  port: 44867
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /arki?ed=2048
+  ws-headers: null
+  tls: false
+- name: n1747624274.4u9ma.iculuvZJo7O
+  type: vmess
+  server: n1747624274.4u9ma.icu
+  port: 443
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: true
+- name: 63.177.252.44acEoHpF7
+  type: ss
+  server: 63.177.252.44
+  port: '443'
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 103.111.114.71egXKHjxu
+  type: ss
+  server: 103.111.114.71
+  port: 28061
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: gtm1.ktmwan.netomGLJPaN
+  type: vmess
+  server: gtm1.ktmwan.net
+  port: 12899
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: gtm1.ktmwan.net
+  tls: false
+- name: 103.111.114.82j4WXAQ6h
+  type: ss
+  server: 103.111.114.82
+  port: 28061
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: v10.hdacd.comk43Hox02
+  type: vmess
+  server: v10.hdacd.com
+  port: 30807
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: auto
   network: null
   ucp: true
   ws-path: null
   ws-headers: null
   tls: false
-- name: v9.hdacd.comVZWyH5K6
-  type: vmess
-  server: v9.hdacd.com
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: v9.hdacd.com
-  tls: false
-- name: v10.hdacd.comy9m0JhHl
-  type: vmess
-  server: v10.hdacd.com
-  port: '30807'
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: '2'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: v10.hdacd.com
-  tls: false
-- name: v8.hdacd.com4EUhY09Z
-  type: vmess
-  server: v8.hdacd.com
-  port: 30808
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: v36.hdacd.com0zRljJxe
-  type: vmess
-  server: v36.hdacd.com
-  port: 30836
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 2a02:6ea0:d32f::f8fe:349btcr9Lmwb
-  type: vmess
-  server: 2a02:6ea0:d32f::f8fe:349b
-  port: '24202'
-  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /github.com/Alvin9999-newpac/fanqiang
-  ws-headers:
-    Host: 2a02:6ea0:d32f::f8fe:349b
-  tls: false
-- name: gtm1.ktmwan.netMD6iQemE
-  type: vmess
-  server: gtm1.ktmwan.net
-  port: 12888
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 103.103.245.158VONH9zWe
+- name: 121.170.203.147ysdSCon6
   type: ss
-  server: 103.103.245.158
-  port: 443
-  password: ccf426f1fe78
+  server: 121.170.203.147
+  port: 2520
+  password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA
   alterId: 2
-  cipher: aes-256-gcm
-- name: guanwang.awsno.comktwcLngS
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: guanwang.awsno.com
-  tls: false
-- name: 47.76.127.883H7EBRlF
-  type: vmess
-  server: 47.76.127.88
-  port: 5566
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: hackney-latest-strike.freesocks.workEn0kRxVi
-  type: ss
-  server: hackney-latest-strike.freesocks.work
-  port: 443
-  password: XUMTygEM1jVYIvysXKqA5T
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: tinkered-pennies-puppies.freesocks.workOn5JUMCw
-  type: ss
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 13.135.169.180TDbEcr1t
-  type: ss
-  server: 13.135.169.180
-  port: 443
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 149.30.232.103QjrlGtHb
+  cipher: aes-128-gcm
+- name: 149.30.232.103koKgVCsF
   type: vmess
   server: 149.30.232.103
   port: '31469'
@@ -158,220 +128,31 @@ proxies:
   ws-headers:
     Host: ''
   tls: false
-- name: 2a02:6ea0:d32f::f8fe:349bpzAKyvsl
+- name: 47.244.120.197EAjItMmK
   type: vmess
-  server: 2a02:6ea0:d32f::f8fe:349b
-  port: '24202'
-  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /github.com/Alvin9999-newpac/fanqiang
-  ws-headers:
-    Host: 2a02:6ea0:d32f::f8fe:349b
-  tls: false
-- name: r3mrcg001286ek2.cybervena.comYkoB2Vbz
-  type: ss
-  server: r3mrcg001286ek2.cybervena.com
-  port: 50099
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: gtm1.ktmwan.netuv9Tmb5E
-  type: vmess
-  server: gtm1.ktmwan.net
-  port: 12898
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  server: 47.244.120.197
+  port: 36703
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   alterId: 0
   cipher: auto
   network: ws
   ucp: true
-  ws-path: null
+  ws-path: /arki?ed=2048
   ws-headers: null
   tls: false
-- name: gtm1.ktmwan.nethxamTZQ2
+- name: v10.hdacd.comLvr9YPO5
   type: vmess
-  server: gtm1.ktmwan.net
-  port: 12901
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: baidu.com
-  tls: false
-- name: 63.177.252.44tMdY0Jhi
-  type: ss
-  server: 63.177.252.44
-  port: '443'
-  password: amazonskr05
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 103.111.114.71fRQMGmCU
-  type: ss
-  server: 103.111.114.71
-  port: 28061
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: v24.hdacd.com7osSRZcC
-  type: vmess
-  server: v24.hdacd.com
-  port: 30824
+  server: v10.hdacd.com
+  port: 30807
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: v24.hdacd.com
-  tls: false
-- name: n1747624260.4u9ma.icuTUXgADB3
-  type: vmess
-  server: n1747624260.4u9ma.icu
-  port: 443
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: true
-- name: 47.83.221.185G6jHNtXP
-  type: vmess
-  server: 47.83.221.185
-  port: 80
-  uuid: 771a590c-5eac-5732-b796-17251132f8d2
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: 47.83.221.185
-  tls: false
-- name: v33.hdacd.comozLl8DHp
-  type: vmess
-  server: v33.hdacd.com
-  port: 30833
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: v33.hdacd.com
-  tls: false
-- name: cs.ktmcn.nettKEuDS52
-  type: vmess
-  server: cs.ktmcn.net
-  port: 12883
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: baidu.com
-  tls: false
-- name: 3.250.25.1595uXVq79D
-  type: ss
-  server: 3.250.25.159
-  port: 443
-  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 2001:bc8:32d7:225::3tm1VdJEZ
-  type: vmess
-  server: 2001:bc8:32d7:225::3
-  port: 55009
-  uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /0zNW56sF
-  ws-headers: null
-  tls: false
-- name: 47.76.127.88Qn7OVyh0
-  type: vmess
-  server: 47.76.127.88
-  port: 5566
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-  alterId: 0
   cipher: auto
   network: null
   ucp: true
   ws-path: null
   ws-headers: null
   tls: false
-- name: r3mrcg001287h3p.cybervena.comdSvxBzUI
-  type: ss
-  server: r3mrcg001287h3p.cybervena.com
-  port: 50099
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: gtm1.ktmwan.netm6rDK2cY
-  type: vmess
-  server: gtm1.ktmwan.net
-  port: 12883
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: baidu.com
-  tls: false
-- name: 160.250.247.70amkeY6C9
-  type: vmess
-  server: 160.250.247.70
-  port: '49178'
-  uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: varzesh3.com
-  tls: false
-- name: v6.hdacd.comCr6XlmRG
-  type: vmess
-  server: v6.hdacd.com
-  port: 30806
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 103.130.147.40AORdM8Hm
-  type: ss
-  server: 103.130.147.40
-  port: 1122
-  password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=
-  alterId: 2
-  cipher: aes-256-gcm
-- name: tinkered-pennies-puppies.freesocks.workXo3xwzIg
-  type: ss
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 4cdn.njkrpl.comjE9pnmit
+- name: 4cdn.njkrpl.comN4uBtSWc
   type: vmess
   server: 4cdn.njkrpl.com
   port: 443
@@ -383,14 +164,26 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: true
-- name: 82.38.31.35RLeDl4t1
+- name: v36.hdacd.comy8KW1d4B
+  type: vmess
+  server: v36.hdacd.com
+  port: 30836
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 82.38.31.35reaEOkoZ
   type: ss
   server: 82.38.31.35
-  port: 443
+  port: '443'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   alterId: 2
   cipher: chacha20-ietf-poly1305
-- name: gtm1.ktmwan.net5Y94Zif6
+- name: gtm1.ktmwan.netU90ZRdHS
   type: vmess
   server: gtm1.ktmwan.net
   port: 12886
@@ -403,185 +196,14 @@ proxies:
   ws-headers:
     Host: baidu.com
   tls: false
-- name: 103.103.245.158jWplM1EG
-  type: ss
-  server: 103.103.245.158
-  port: 443
-  password: ccf426f1fe78
-  alterId: 2
-  cipher: aes-256-gcm
-- name: v33.hdacd.comKLhSfR1l
-  type: vmess
-  server: v33.hdacd.com
-  port: 30833
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: n1747624260.4u9ma.icuIxWrURQF
-  type: vmess
-  server: n1747624260.4u9ma.icu
-  port: 443
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: true
-- name: 47.76.127.88A0WgFdkO
-  type: vmess
-  server: 47.76.127.88
-  port: 5566
-  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: 47.76.127.88
-  tls: false
-- name: v9.heduian.linkLru5MiXG
-  type: vmess
-  server: v9.heduian.link
-  port: '30809'
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /oooo
-  ws-headers:
-    Host: baidu.com
-  tls: false
-- name: r3mrcg007117fb8.cybervena.comKznkwvO5
-  type: ss
-  server: r3mrcg007117fb8.cybervena.com
-  port: 50099
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 3.250.25.159ife6IjaJ
+- name: 3.250.25.159aTYXsI1g
   type: ss
   server: 3.250.25.159
   port: 443
-  password: amazonskr05
+  password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
   alterId: 2
-  cipher: aes-256-cfb
-- name: tg.hrmp.kdns.fryeZ8fuVS
-  type: vmess
-  server: tg.hrmp.kdns.fr
-  port: 8443
-  uuid: af1ccd89-b66b-44e8-99b8-0d945078c04b
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /tirexvmess
-  ws-headers:
-    Host: tg.hrmp.kdns.fr
-  tls: true
-- name: 103.127.243.591hQ0q9Vg
-  type: vmess
-  server: 103.127.243.59
-  port: '56738'
-  uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /ABCDE
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 47.244.120.197QGl41PJU
-  type: vmess
-  server: 47.244.120.197
-  port: 44867
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /arki?ed=2048
-  ws-headers: null
-  tls: false
-- name: 103.181.164.1457R1zNBt6
-  type: vmess
-  server: 103.181.164.145
-  port: '51556'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: 54.250.165.160SYOg16C5
-  type: ss
-  server: 54.250.165.160
-  port: 2377
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 103.181.164.145U9iNWuGm
-  type: vmess
-  server: 103.181.164.145
-  port: '51556'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ''
-  tls: false
-- name: gtm1.ktmwan.netfPa80pS1
-  type: vmess
-  server: gtm1.ktmwan.net
-  port: 12897
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: n1747624274.4u9ma.icup8YNTbe2
-  type: vmess
-  server: n1747624274.4u9ma.icu
-  port: 443
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: true
-- name: gtm1.ktmwan.netRG8QMkf4
-  type: vmess
-  server: gtm1.ktmwan.net
-  port: 12889
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 210.109.205.158VFrGkAYh
+  cipher: aes-128-gcm
+- name: 210.109.205.158s4gvTc9L
   type: vmess
   server: 210.109.205.158
   port: 55879
@@ -593,302 +215,16 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: chengbai02.ascwt179.comk2PnI3Ti
+- name: 1.n.c.5.h.z.q.e.d.fr01-ae5.entry.v51124-5.qponx9zGwDeQ
   type: ss
-  server: chengbai02.ascwt179.com
-  port: 13223
-  password: JVrsLLN1tkN8oXZO
+  server: 1.n.c.5.h.z.q.e.d.fr01-ae5.entry.v51124-5.qpon
+  port: 20068
+  password: 95c3d114-5370-3e54-832a-5a5acc492b9b
   alterId: 2
-  cipher: aes-128-gcm
-- name: 103.186.154.42PrOvUuwJ
-  type: ss
-  server: 103.186.154.42
-  port: 38388
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  alterId: 2
-  cipher: aes-128-gcm
-- name: v6.hdacd.comK71Q4i6t
-  type: vmess
-  server: v6.hdacd.com
-  port: 30806
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: v6.hdacd.com
-  tls: false
-- name: 47.244.120.197QX8uPWoF
-  type: vmess
-  server: 47.244.120.197
-  port: 36703
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /arki?ed=2048
-  ws-headers: null
-  tls: false
-- name: gtm1.ktmwan.netuk5rUF8a
+  cipher: aes-256-gcm
+- name: gtm1.ktmwan.netx0iByqfk
   type: vmess
   server: gtm1.ktmwan.net
-  port: 12890
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: baidu.com
-  tls: false
-- name: 47.244.120.197NV2Ck0D8
-  type: vmess
-  server: 47.244.120.197
-  port: 36703
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /arki?ed=2048
-  ws-headers: null
-  tls: false
-- name: v9.hdacd.comWplNIEgD
-  type: vmess
-  server: v9.hdacd.com
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: hackney-latest-strike.freesocks.work014ygb7Z
-  type: ss
-  server: hackney-latest-strike.freesocks.work
-  port: 443
-  password: XUMTygEM1jVYIvysXKqA5T
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: v9.hdacd.comXqusIwQY
-  type: vmess
-  server: v9.hdacd.com
-  port: 30809
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: v10.hdacd.comVGKFCpRr
-  type: vmess
-  server: v10.hdacd.com
-  port: 30807
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: guanwang.awsno.comYvHwjh72
-  type: vmess
-  server: guanwang.awsno.com
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: true
-- name: 103.111.114.80jJ7pYaFs
-  type: ss
-  server: 103.111.114.80
-  port: 28061
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: jp07.jd.kunlunpx.comn80y2aNx
-  type: ss
-  server: jp07.jd.kunlunpx.com
-  port: 45572
-  password: 722a54414ae6ee706ac9
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 210.109.205.158FpzQnsZo
-  type: vmess
-  server: 210.109.205.158
-  port: '55879'
-  uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 93.180.134.52yXhN4pL7
-  type: vmess
-  server: 93.180.134.52
-  port: '2078'
-  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /?ed=1024
-  ws-headers:
-    Host: windows64.net
-  tls: false
-- name: 69.84.182.49EuJkjfwG
-  type: vmess
-  server: 69.84.182.49
-  port: '80'
-  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-  tls: false
-- name: 93.180.134.52nAJfQkjs
-  type: vmess
-  server: 93.180.134.52
-  port: 2078
-  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
-  alterId: 0
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: n1747624274.4u9ma.icukxJKfcsm
-  type: vmess
-  server: n1747624274.4u9ma.icu
-  port: 443
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /
-  ws-headers:
-    Host: n1747624274.4u9ma.icu
-  tls: false
-- name: v4.hdacd.comF5UA0czQ
-  type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: hackney-latest-strike.freesocks.workkYf2zToP
-  type: ss
-  server: hackney-latest-strike.freesocks.work
-  port: 443
-  password: XUMTygEM1jVYIvysXKqA5T
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 82.198.246.97j0tGh4fY
-  type: vmess
-  server: 82.198.246.97
-  port: '180'
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
-  ws-path: /kT5VHYcMrphesqROzSPoHrBo
-  ws-headers:
-    Host: 4120-be04-13EF56096989.457.Pp.Ua
-  tls: false
-- name: chengbai02.ascwt179.comh0n6JMEs
-  type: ss
-  server: chengbai02.ascwt179.com
-  port: 13223
-  password: JVrsLLN1tkN8oXZO
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 103.111.114.82wUAjhK4I
-  type: ss
-  server: 103.111.114.82
-  port: 28061
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: chengbai02.ascwt179.comdlI734cj
-  type: ss
-  server: chengbai02.ascwt179.com
-  port: 13223
-  password: JVrsLLN1tkN8oXZO
-  alterId: 2
-  cipher: aes-128-gcm
-- name: n1747624274.4u9ma.icuRLSA5Bjk
-  type: vmess
-  server: n1747624274.4u9ma.icu
-  port: 443
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: true
-- name: renderer-stream-1-411.mirra.nowENHtiGzm
-  type: vmess
-  server: renderer-stream-1-411.mirra.now
-  port: '443'
-  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /api/v1/gpu-stream/socket
-  ws-headers:
-    Host: renderer-stream-1-411.mirra.now
-  tls: true
-- name: 121.170.203.147VPcGJXAk
-  type: ss
-  server: 121.170.203.147
-  port: 2520
-  password: qwerREWQ@@
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 47.83.221.185bJoAWsKp
-  type: vmess
-  server: 47.83.221.185
-  port: 80
-  uuid: 771a590c-5eac-5732-b796-17251132f8d2
-  alterId: 0
-  cipher: auto
-  network: null
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: cs.ktmcn.netvoQu1T0e
-  type: vmess
-  server: cs.ktmcn.net
   port: 12901
   uuid: 4941aa8d-07d2-408c-be2c-117debecba30
   alterId: 0
@@ -899,62 +235,34 @@ proxies:
   ws-headers:
     Host: baidu.com
   tls: false
-- name: 2a02:6ea0:d32f::f8fe:349bpdtNrSG5
+- name: v4.hdacd.comb0QtxPVd
   type: vmess
-  server: 2a02:6ea0:d32f::f8fe:349b
-  port: '24202'
-  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
-  alterId: '0'
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /github.com/Alvin9999-newpac/fanqiang
-  ws-headers:
-    Host: ''
-  tls: false
-- name: gtm1.ktmwan.netsUpNPMjR
-  type: vmess
-  server: gtm1.ktmwan.net
-  port: 12899
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  alterId: 0
-  cipher: auto
-  network: ws
+  network: tcp
   ucp: true
   ws-path: null
   ws-headers: null
   tls: false
-- name: 121.170.203.147JFVe8fjS
-  type: ss
-  server: 121.170.203.147
-  port: 2520
-  password: //YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 82.198.246.2502LuIhby8
+- name: 43.207.83.60fKkb8c1i
   type: vmess
-  server: 82.198.246.250
-  port: '180'
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: '0'
+  server: 43.207.83.60
+  port: '20932'
+  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
+  alterId: 0
   cipher: auto
-  network: tcp
+  network: kcp
   ucp: true
-  ws-path: /
-  ws-headers:
-    Host: ads.x5.ru
+  ws-path: null
+  ws-headers: null
   tls: false
-- name: 212.192.13.9162PdV7Tr
-  type: ss
-  server: 212.192.13.91
-  port: 30129
-  password: 7e1dd4c55bf85da5
-  alterId: 2
-  cipher: aes-256-gcm
-- name: 23.236.68.161andh42fe
+- name: 23.236.68.1619pVZzJFo
   type: vmess
   server: 23.236.68.161
-  port: 57518
+  port: '57518'
   uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
   alterId: 0
   cipher: auto
@@ -963,19 +271,63 @@ proxies:
   ws-path: null
   ws-headers: null
   tls: false
-- name: 4cdn.njkrpl.com0dYCMG6p
+- name: 47.244.120.197cCfk3FjQ
   type: vmess
-  server: 4cdn.njkrpl.com
-  port: 443
-  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
+  server: 47.244.120.197
+  port: 36703
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   alterId: 0
   cipher: auto
   network: ws
   ucp: true
+  ws-path: /arki?ed=2048
+  ws-headers: null
+  tls: false
+- name: guanwang.awsno.comU7igSen0
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
   ws-path: null
   ws-headers: null
   tls: true
-- name: cs.ktmcn.netxy4Kq2Wj
+- name: gtm1.ktmwan.netT6j3cISz
+  type: vmess
+  server: gtm1.ktmwan.net
+  port: 12888
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: gtm1.ktmwan.net
+  tls: false
+- name: 2001:bc8:32d7:225::3gbDujw0Q
+  type: vmess
+  server: 2001:bc8:32d7:225::3
+  port: 55009
+  uuid: cd80d0a4-a8ef-4492-b956-da82a6cecaf9
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /0zNW56sF
+  ws-headers: null
+  tls: false
+- name: jp07.jd.kunlunpx.comDjMfmL46
+  type: ss
+  server: jp07.jd.kunlunpx.com
+  port: 45572
+  password: 722a54414ae6ee706ac9
+  alterId: 2
+  cipher: aes-128-gcm
+- name: cs.ktmcn.netu0inoT7X
   type: vmess
   server: cs.ktmcn.net
   port: 12885
@@ -984,43 +336,11 @@ proxies:
   cipher: auto
   network: ws
   ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: 103.186.154.42Isbyra8k
-  type: ss
-  server: 103.186.154.42
-  port: 38388
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  alterId: 2
-  cipher: aes-256-cfb
-- name: 103.181.164.145Myn8xKuY
-  type: vmess
-  server: 103.181.164.145
-  port: '54022'
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  ucp: true
   ws-path: /
   ws-headers:
-    Host: ''
+    Host: cs.ktmcn.net
   tls: false
-- name: tg.hrmp.kdns.frvwDLeZsc
-  type: vmess
-  server: tg.hrmp.kdns.fr
-  port: 8443
-  uuid: af1ccd89-b66b-44e8-99b8-0d945078c04b
-  alterId: 0
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /tirexvmess
-  ws-headers:
-    Host: tg.hrmp.kdns.fr
-  tls: true
-- name: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.comwLESsDIC
+- name: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.comp6ySWnTm
   type: vmess
   server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
   port: '80'
@@ -1033,115 +353,258 @@ proxies:
   ws-headers:
     Host: broadcastlv.chat.bilibili.com
   tls: false
-- name: jp07.jd.kunlunpx.como4CaA85i
+- name: 103.103.245.158qc2WUpOb
   type: ss
-  server: jp07.jd.kunlunpx.com
-  port: 45572
-  password: 722a54414ae6ee706ac9
-  alterId: 2
-  cipher: aes-128-gcm
-- name: 2a02:6ea0:d32f::f8fe:349b3ivlcoPW
-  type: vmess
-  server: 2a02:6ea0:d32f::f8fe:349b
-  port: '24202'
-  uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
-  alterId: '0'
-  cipher: auto
-  network: ws
-  ucp: true
-  ws-path: /github.com/Alvin9999-newpac/fanqiang
-  ws-headers:
-    Host: ''
-  tls: false
-- name: tinkered-pennies-puppies.freesocks.workBEItmRCc
-  type: ss
-  server: tinkered-pennies-puppies.freesocks.work
+  server: 103.103.245.158
   port: 443
-  password: hbGrpfvNrJsUmKmPbR3iY2
+  password: ccf426f1fe78
   alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 47.242.186.1HfNCW8ev
-  type: vmess
-  server: 47.242.186.1
-  port: '5043'
-  uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
-  alterId: 0
-  cipher: auto
-  network: kcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: tinkered-pennies-puppies.freesocks.workoMVO4hit
+  cipher: aes-256-gcm
+- name: 103.186.154.42LqRbawyM
   type: ss
-  server: tinkered-pennies-puppies.freesocks.work
-  port: 443
-  password: hbGrpfvNrJsUmKmPbR3iY2
+  server: 103.186.154.42
+  port: 38388
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   alterId: 2
-  cipher: chacha20-ietf-poly1305
-- name: 43.207.83.609DgEpqcn
-  type: vmess
-  server: 43.207.83.60
-  port: '20932'
-  uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
-  alterId: 0
-  cipher: auto
-  network: kcp
-  ucp: true
-  ws-path: null
-  ws-headers: null
-  tls: false
-- name: v10.hdacd.comIE07eW3n
+  cipher: aes-256-cfb
+- name: v10.hdacd.com5owgKHmU
   type: vmess
   server: v10.hdacd.com
   port: 30807
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   alterId: 2
   cipher: auto
-  network: null
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: v10.hdacd.com
+  tls: false
+- name: v4.hdacd.comEpIK8Dhd
+  type: vmess
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: v4.hdacd.com
+  tls: false
+- name: n1747624260.4u9ma.icuIvJX0Lec
+  type: vmess
+  server: n1747624260.4u9ma.icu
+  port: 443
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  alterId: 0
+  cipher: auto
+  network: ws
   ucp: true
   ws-path: null
   ws-headers: null
-  tls: false
-- name: 4cdn.njkrpl.comFTmQjv7M
+  tls: true
+- name: gtm1.ktmwan.netXaU68Rd2
   type: vmess
-  server: 4cdn.njkrpl.com
-  port: 443
-  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
+  server: gtm1.ktmwan.net
+  port: 12898
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
   alterId: 0
   cipher: auto
   network: ws
   ucp: true
   ws-path: /
   ws-headers:
-    Host: 4cdn.njkrpl.com
+    Host: gtm1.ktmwan.net
   tls: false
-- name: 23.236.68.161x9W8Pknu
+- name: 47.76.127.88nK6Ypate
   type: vmess
-  server: 23.236.68.161
-  port: '57518'
-  uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
+  server: 47.76.127.88
+  port: 5566
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
   alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 121.170.203.147a0xKlCeL
+  type: ss
+  server: 121.170.203.147
+  port: 2520
+  password: qwerREWQ@@
+  alterId: 2
+  cipher: aes-256-cfb
+- name: v8.hdacd.com8w2buTHn
+  type: vmess
+  server: v8.hdacd.com
+  port: 30808
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: v8.hdacd.com
+  tls: false
+- name: n1747624274.4u9ma.icuZ3ryq9QB
+  type: vmess
+  server: n1747624274.4u9ma.icu
+  port: 443
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: n1747624274.4u9ma.icu
+  tls: false
+- name: v9.heduian.linkQZO0tS3i
+  type: vmess
+  server: v9.heduian.link
+  port: '30809'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /oooo
+  ws-headers:
+    Host: baidu.com
+  tls: false
+- name: 82.38.31.35hFf78bn9
+  type: ss
+  server: 82.38.31.35
+  port: 443
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  alterId: 2
+  cipher: chacha20-ietf-poly1305
+- name: gtm1.ktmwan.netHMWJczmw
+  type: vmess
+  server: gtm1.ktmwan.net
+  port: 12889
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: gtm1.ktmwan.net
+  tls: false
+- name: gtm1.ktmwan.netKlNEOrkc
+  type: vmess
+  server: gtm1.ktmwan.net
+  port: 12897
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: gtm1.ktmwan.net
+  tls: false
+- name: 3.250.25.159iXEFPVNC
+  type: ss
+  server: 3.250.25.159
+  port: 443
+  password: amazonskr05
+  alterId: 2
+  cipher: aes-256-cfb
+- name: 47.76.127.88Rdw6to5H
+  type: vmess
+  server: 47.76.127.88
+  port: 5566
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: 47.76.127.88
+  tls: false
+- name: gtm1.ktmwan.net6ovg0fue
+  type: vmess
+  server: gtm1.ktmwan.net
+  port: 12890
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: baidu.com
+  tls: false
+- name: v9.hdacd.comjIzYPbtc
+  type: vmess
+  server: v9.hdacd.com
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: auto
   network: tcp
   ucp: true
   ws-path: null
   ws-headers: null
   tls: false
-- name: 82.198.246.370yvtOoEz
+- name: v6.hdacd.com7LR1dGOX
   type: vmess
-  server: 82.198.246.37
-  port: '180'
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  alterId: '0'
+  server: v6.hdacd.com
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
   cipher: auto
   network: tcp
   ucp: true
-  ws-path: /trTelegram🇨🇳 @WangCai2
+  ws-path: /
   ws-headers:
-    Host: Koma-YT.PAGeS.Dev
+    Host: v6.hdacd.com
   tls: false
-- name: n1747624260.4u9ma.icubxJKNPG6
+- name: n1747624274.4u9ma.icuIjME8iWw
+  type: vmess
+  server: n1747624274.4u9ma.icu
+  port: 443
+  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: true
+- name: cs.ktmcn.netd30PNWDB
+  type: vmess
+  server: cs.ktmcn.net
+  port: 12901
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: baidu.com
+  tls: false
+- name: v6.hdacd.com3K5Okmhr
+  type: vmess
+  server: v6.hdacd.com
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: n1747624260.4u9ma.icuYcMjsNqh
   type: vmess
   server: n1747624260.4u9ma.icu
   port: 443
@@ -1154,229 +617,461 @@ proxies:
   ws-headers:
     Host: n1747624260.4u9ma.icu
   tls: false
+- name: v35.hdacd.com1BXTAZFQ
+  type: vmess
+  server: v35.hdacd.com
+  port: 30835
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 47.244.120.197cebxshYR
+  type: vmess
+  server: 47.244.120.197
+  port: 44867
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /arki?ed=2048
+  ws-headers: null
+  tls: false
+- name: guanwang.awsno.com2LfGF0R9
+  type: vmess
+  server: guanwang.awsno.com
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: true
+- name: 47.83.221.185VB2tcQTC
+  type: vmess
+  server: 47.83.221.185
+  port: 80
+  uuid: 771a590c-5eac-5732-b796-17251132f8d2
+  alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 210.109.205.158zk0v2g9D
+  type: vmess
+  server: 210.109.205.158
+  port: '55879'
+  uuid: 7cc8bff2-1e5c-45d1-a3e7-b35e8f25cbbe
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 47.242.186.1o1UPZ0DT
+  type: vmess
+  server: 47.242.186.1
+  port: '5043'
+  uuid: 93c35277-ee3f-4ab2-9d9e-462b97a8795f
+  alterId: 0
+  cipher: auto
+  network: kcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: v33.hdacd.comzQOiU03B
+  type: vmess
+  server: v33.hdacd.com
+  port: 30833
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: v33.hdacd.com
+  tls: false
+- name: 4cdn.njkrpl.comCj7MldEF
+  type: vmess
+  server: 4cdn.njkrpl.com
+  port: 443
+  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: 4cdn.njkrpl.com
+  tls: false
+- name: 103.186.154.42cLs41wPi
+  type: ss
+  server: 103.186.154.42
+  port: 38388
+  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
+  alterId: 2
+  cipher: aes-128-gcm
+- name: v36.hdacd.comxyejh9lH
+  type: vmess
+  server: v36.hdacd.com
+  port: 30836
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: v36.hdacd.com
+  tls: false
+- name: v33.hdacd.comkd2SQBvT
+  type: vmess
+  server: v33.hdacd.com
+  port: 30833
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: n1747624260.4u9ma.iculQsBf2RK
+  type: vmess
+  server: n1747624260.4u9ma.icu
+  port: 443
+  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: true
+- name: v9.hdacd.comhOAj3au7
+  type: vmess
+  server: v9.hdacd.com
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 23.236.68.161P3wdxjnN
+  type: vmess
+  server: 23.236.68.161
+  port: 57518
+  uuid: e47902b2-928b-41ec-a868-ed3d1d4bec76
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 103.166.184.134zrSdc3vb
+  type: vmess
+  server: 103.166.184.134
+  port: 27467
+  uuid: 93637105-bcea-4a68-b089-1bb6091f0b16
+  alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: tg.hrmp.kdns.frJ3Bqr6kf
+  type: vmess
+  server: tg.hrmp.kdns.fr
+  port: 8443
+  uuid: af1ccd89-b66b-44e8-99b8-0d945078c04b
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /tirexvmess
+  ws-headers:
+    Host: tg.hrmp.kdns.fr
+  tls: true
+- name: 103.103.245.158RAd1bgpU
+  type: ss
+  server: 103.103.245.158
+  port: 443
+  password: ccf426f1fe78
+  alterId: 2
+  cipher: aes-256-gcm
+- name: v10.hdacd.comr0Xtmgdi
+  type: vmess
+  server: v10.hdacd.com
+  port: '30807'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: '2'
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: v10.hdacd.com
+  tls: false
+- name: v9.hdacd.comyrTE1jao
+  type: vmess
+  server: v9.hdacd.com
+  port: 30809
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: v9.hdacd.com
+  tls: false
+- name: gtm1.ktmwan.netrfdyCVXc
+  type: vmess
+  server: gtm1.ktmwan.net
+  port: 12883
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: baidu.com
+  tls: false
+- name: 4cdn.njkrpl.com7pGc9PH3
+  type: vmess
+  server: 4cdn.njkrpl.com
+  port: 443
+  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: true
+- name: 47.76.127.88oSLcv6H9
+  type: vmess
+  server: 47.76.127.88
+  port: 5566
+  uuid: 44712929-c2b7-4fa4-93bd-9de332a78c8c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: 93.180.134.52aQOzGSwe
+  type: vmess
+  server: 93.180.134.52
+  port: 2078
+  uuid: 1c18da66-a912-40af-b90d-787574efe6d3
+  alterId: 0
+  cipher: auto
+  network: null
+  ucp: true
+  ws-path: null
+  ws-headers: null
+  tls: false
+- name: cs.ktmcn.netc5wBsyRd
+  type: vmess
+  server: cs.ktmcn.net
+  port: 12883
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  alterId: 0
+  cipher: auto
+  network: ws
+  ucp: true
+  ws-path: /
+  ws-headers:
+    Host: baidu.com
+  tls: false
 proxy-groups:
 - name: 🔰 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 103.166.184.134PoAOexLc
-  - v9.hdacd.comVZWyH5K6
-  - v10.hdacd.comy9m0JhHl
-  - v8.hdacd.com4EUhY09Z
-  - v36.hdacd.com0zRljJxe
-  - 2a02:6ea0:d32f::f8fe:349btcr9Lmwb
-  - gtm1.ktmwan.netMD6iQemE
-  - 103.103.245.158VONH9zWe
-  - guanwang.awsno.comktwcLngS
-  - 47.76.127.883H7EBRlF
-  - hackney-latest-strike.freesocks.workEn0kRxVi
-  - tinkered-pennies-puppies.freesocks.workOn5JUMCw
-  - 13.135.169.180TDbEcr1t
-  - 149.30.232.103QjrlGtHb
-  - 2a02:6ea0:d32f::f8fe:349bpzAKyvsl
-  - r3mrcg001286ek2.cybervena.comYkoB2Vbz
-  - gtm1.ktmwan.netuv9Tmb5E
-  - gtm1.ktmwan.nethxamTZQ2
-  - 63.177.252.44tMdY0Jhi
-  - 103.111.114.71fRQMGmCU
-  - v24.hdacd.com7osSRZcC
-  - n1747624260.4u9ma.icuTUXgADB3
-  - 47.83.221.185G6jHNtXP
-  - v33.hdacd.comozLl8DHp
-  - cs.ktmcn.nettKEuDS52
-  - 3.250.25.1595uXVq79D
-  - 2001:bc8:32d7:225::3tm1VdJEZ
-  - 47.76.127.88Qn7OVyh0
-  - r3mrcg001287h3p.cybervena.comdSvxBzUI
-  - gtm1.ktmwan.netm6rDK2cY
-  - 160.250.247.70amkeY6C9
-  - v6.hdacd.comCr6XlmRG
-  - 103.130.147.40AORdM8Hm
-  - tinkered-pennies-puppies.freesocks.workXo3xwzIg
-  - 4cdn.njkrpl.comjE9pnmit
-  - 82.38.31.35RLeDl4t1
-  - gtm1.ktmwan.net5Y94Zif6
-  - 103.103.245.158jWplM1EG
-  - v33.hdacd.comKLhSfR1l
-  - n1747624260.4u9ma.icuIxWrURQF
-  - 47.76.127.88A0WgFdkO
-  - v9.heduian.linkLru5MiXG
-  - r3mrcg007117fb8.cybervena.comKznkwvO5
-  - 3.250.25.159ife6IjaJ
-  - tg.hrmp.kdns.fryeZ8fuVS
-  - 103.127.243.591hQ0q9Vg
-  - 47.244.120.197QGl41PJU
-  - 103.181.164.1457R1zNBt6
-  - 54.250.165.160SYOg16C5
-  - 103.181.164.145U9iNWuGm
-  - gtm1.ktmwan.netfPa80pS1
-  - n1747624274.4u9ma.icup8YNTbe2
-  - gtm1.ktmwan.netRG8QMkf4
-  - 210.109.205.158VFrGkAYh
-  - chengbai02.ascwt179.comk2PnI3Ti
-  - 103.186.154.42PrOvUuwJ
-  - v6.hdacd.comK71Q4i6t
-  - 47.244.120.197QX8uPWoF
-  - gtm1.ktmwan.netuk5rUF8a
-  - 47.244.120.197NV2Ck0D8
-  - v9.hdacd.comWplNIEgD
-  - hackney-latest-strike.freesocks.work014ygb7Z
-  - v9.hdacd.comXqusIwQY
-  - v10.hdacd.comVGKFCpRr
-  - guanwang.awsno.comYvHwjh72
-  - 103.111.114.80jJ7pYaFs
-  - jp07.jd.kunlunpx.comn80y2aNx
-  - 210.109.205.158FpzQnsZo
-  - 93.180.134.52yXhN4pL7
-  - 69.84.182.49EuJkjfwG
-  - 93.180.134.52nAJfQkjs
-  - n1747624274.4u9ma.icukxJKfcsm
-  - v4.hdacd.comF5UA0czQ
-  - hackney-latest-strike.freesocks.workkYf2zToP
-  - 82.198.246.97j0tGh4fY
-  - chengbai02.ascwt179.comh0n6JMEs
-  - 103.111.114.82wUAjhK4I
-  - chengbai02.ascwt179.comdlI734cj
-  - n1747624274.4u9ma.icuRLSA5Bjk
-  - renderer-stream-1-411.mirra.nowENHtiGzm
-  - 121.170.203.147VPcGJXAk
-  - 47.83.221.185bJoAWsKp
-  - cs.ktmcn.netvoQu1T0e
-  - 2a02:6ea0:d32f::f8fe:349bpdtNrSG5
-  - gtm1.ktmwan.netsUpNPMjR
-  - 121.170.203.147JFVe8fjS
-  - 82.198.246.2502LuIhby8
-  - 212.192.13.9162PdV7Tr
-  - 23.236.68.161andh42fe
-  - 4cdn.njkrpl.com0dYCMG6p
-  - cs.ktmcn.netxy4Kq2Wj
-  - 103.186.154.42Isbyra8k
-  - 103.181.164.145Myn8xKuY
-  - tg.hrmp.kdns.frvwDLeZsc
-  - 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.comwLESsDIC
-  - jp07.jd.kunlunpx.como4CaA85i
-  - 2a02:6ea0:d32f::f8fe:349b3ivlcoPW
-  - tinkered-pennies-puppies.freesocks.workBEItmRCc
-  - 47.242.186.1HfNCW8ev
-  - tinkered-pennies-puppies.freesocks.workoMVO4hit
-  - 43.207.83.609DgEpqcn
-  - v10.hdacd.comIE07eW3n
-  - 4cdn.njkrpl.comFTmQjv7M
-  - 23.236.68.161x9W8Pknu
-  - 82.198.246.370yvtOoEz
-  - n1747624260.4u9ma.icubxJKNPG6
+  - jp07.jd.kunlunpx.comJhKtmVAH
+  - 47.244.120.197rthKGITb
+  - tg.hrmp.kdns.froliSFKGk
+  - 47.244.120.197val20iK5
+  - n1747624274.4u9ma.iculuvZJo7O
+  - 63.177.252.44acEoHpF7
+  - 103.111.114.71egXKHjxu
+  - gtm1.ktmwan.netomGLJPaN
+  - 103.111.114.82j4WXAQ6h
+  - v10.hdacd.comk43Hox02
+  - 121.170.203.147ysdSCon6
+  - 149.30.232.103koKgVCsF
+  - 47.244.120.197EAjItMmK
+  - v10.hdacd.comLvr9YPO5
+  - 4cdn.njkrpl.comN4uBtSWc
+  - v36.hdacd.comy8KW1d4B
+  - 82.38.31.35reaEOkoZ
+  - gtm1.ktmwan.netU90ZRdHS
+  - 3.250.25.159aTYXsI1g
+  - 210.109.205.158s4gvTc9L
+  - 1.n.c.5.h.z.q.e.d.fr01-ae5.entry.v51124-5.qponx9zGwDeQ
+  - gtm1.ktmwan.netx0iByqfk
+  - v4.hdacd.comb0QtxPVd
+  - 43.207.83.60fKkb8c1i
+  - 23.236.68.1619pVZzJFo
+  - 47.244.120.197cCfk3FjQ
+  - guanwang.awsno.comU7igSen0
+  - gtm1.ktmwan.netT6j3cISz
+  - 2001:bc8:32d7:225::3gbDujw0Q
+  - jp07.jd.kunlunpx.comDjMfmL46
+  - cs.ktmcn.netu0inoT7X
+  - 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.comp6ySWnTm
+  - 103.103.245.158qc2WUpOb
+  - 103.186.154.42LqRbawyM
+  - v10.hdacd.com5owgKHmU
+  - v4.hdacd.comEpIK8Dhd
+  - n1747624260.4u9ma.icuIvJX0Lec
+  - gtm1.ktmwan.netXaU68Rd2
+  - 47.76.127.88nK6Ypate
+  - 121.170.203.147a0xKlCeL
+  - v8.hdacd.com8w2buTHn
+  - n1747624274.4u9ma.icuZ3ryq9QB
+  - v9.heduian.linkQZO0tS3i
+  - 82.38.31.35hFf78bn9
+  - gtm1.ktmwan.netHMWJczmw
+  - gtm1.ktmwan.netKlNEOrkc
+  - 3.250.25.159iXEFPVNC
+  - 47.76.127.88Rdw6to5H
+  - gtm1.ktmwan.net6ovg0fue
+  - v9.hdacd.comjIzYPbtc
+  - v6.hdacd.com7LR1dGOX
+  - n1747624274.4u9ma.icuIjME8iWw
+  - cs.ktmcn.netd30PNWDB
+  - v6.hdacd.com3K5Okmhr
+  - n1747624260.4u9ma.icuYcMjsNqh
+  - v35.hdacd.com1BXTAZFQ
+  - 47.244.120.197cebxshYR
+  - guanwang.awsno.com2LfGF0R9
+  - 47.83.221.185VB2tcQTC
+  - 210.109.205.158zk0v2g9D
+  - 47.242.186.1o1UPZ0DT
+  - v33.hdacd.comzQOiU03B
+  - 4cdn.njkrpl.comCj7MldEF
+  - 103.186.154.42cLs41wPi
+  - v36.hdacd.comxyejh9lH
+  - v33.hdacd.comkd2SQBvT
+  - n1747624260.4u9ma.iculQsBf2RK
+  - v9.hdacd.comhOAj3au7
+  - 23.236.68.161P3wdxjnN
+  - 103.166.184.134zrSdc3vb
+  - tg.hrmp.kdns.frJ3Bqr6kf
+  - 103.103.245.158RAd1bgpU
+  - v10.hdacd.comr0Xtmgdi
+  - v9.hdacd.comyrTE1jao
+  - gtm1.ktmwan.netrfdyCVXc
+  - 4cdn.njkrpl.com7pGc9PH3
+  - 47.76.127.88oSLcv6H9
+  - 93.180.134.52aQOzGSwe
+  - cs.ktmcn.netc5wBsyRd
 - name: ♻️ 自动选择
   type: url-test
   url: http://maps.googleapis.com/maps/api/mapsjs/gen_204
   interval: 300
   proxies:
-  - 103.166.184.134PoAOexLc
-  - v9.hdacd.comVZWyH5K6
-  - v10.hdacd.comy9m0JhHl
-  - v8.hdacd.com4EUhY09Z
-  - v36.hdacd.com0zRljJxe
-  - 2a02:6ea0:d32f::f8fe:349btcr9Lmwb
-  - gtm1.ktmwan.netMD6iQemE
-  - 103.103.245.158VONH9zWe
-  - guanwang.awsno.comktwcLngS
-  - 47.76.127.883H7EBRlF
-  - hackney-latest-strike.freesocks.workEn0kRxVi
-  - tinkered-pennies-puppies.freesocks.workOn5JUMCw
-  - 13.135.169.180TDbEcr1t
-  - 149.30.232.103QjrlGtHb
-  - 2a02:6ea0:d32f::f8fe:349bpzAKyvsl
-  - r3mrcg001286ek2.cybervena.comYkoB2Vbz
-  - gtm1.ktmwan.netuv9Tmb5E
-  - gtm1.ktmwan.nethxamTZQ2
-  - 63.177.252.44tMdY0Jhi
-  - 103.111.114.71fRQMGmCU
-  - v24.hdacd.com7osSRZcC
-  - n1747624260.4u9ma.icuTUXgADB3
-  - 47.83.221.185G6jHNtXP
-  - v33.hdacd.comozLl8DHp
-  - cs.ktmcn.nettKEuDS52
-  - 3.250.25.1595uXVq79D
-  - 2001:bc8:32d7:225::3tm1VdJEZ
-  - 47.76.127.88Qn7OVyh0
-  - r3mrcg001287h3p.cybervena.comdSvxBzUI
-  - gtm1.ktmwan.netm6rDK2cY
-  - 160.250.247.70amkeY6C9
-  - v6.hdacd.comCr6XlmRG
-  - 103.130.147.40AORdM8Hm
-  - tinkered-pennies-puppies.freesocks.workXo3xwzIg
-  - 4cdn.njkrpl.comjE9pnmit
-  - 82.38.31.35RLeDl4t1
-  - gtm1.ktmwan.net5Y94Zif6
-  - 103.103.245.158jWplM1EG
-  - v33.hdacd.comKLhSfR1l
-  - n1747624260.4u9ma.icuIxWrURQF
-  - 47.76.127.88A0WgFdkO
-  - v9.heduian.linkLru5MiXG
-  - r3mrcg007117fb8.cybervena.comKznkwvO5
-  - 3.250.25.159ife6IjaJ
-  - tg.hrmp.kdns.fryeZ8fuVS
-  - 103.127.243.591hQ0q9Vg
-  - 47.244.120.197QGl41PJU
-  - 103.181.164.1457R1zNBt6
-  - 54.250.165.160SYOg16C5
-  - 103.181.164.145U9iNWuGm
-  - gtm1.ktmwan.netfPa80pS1
-  - n1747624274.4u9ma.icup8YNTbe2
-  - gtm1.ktmwan.netRG8QMkf4
-  - 210.109.205.158VFrGkAYh
-  - chengbai02.ascwt179.comk2PnI3Ti
-  - 103.186.154.42PrOvUuwJ
-  - v6.hdacd.comK71Q4i6t
-  - 47.244.120.197QX8uPWoF
-  - gtm1.ktmwan.netuk5rUF8a
-  - 47.244.120.197NV2Ck0D8
-  - v9.hdacd.comWplNIEgD
-  - hackney-latest-strike.freesocks.work014ygb7Z
-  - v9.hdacd.comXqusIwQY
-  - v10.hdacd.comVGKFCpRr
-  - guanwang.awsno.comYvHwjh72
-  - 103.111.114.80jJ7pYaFs
-  - jp07.jd.kunlunpx.comn80y2aNx
-  - 210.109.205.158FpzQnsZo
-  - 93.180.134.52yXhN4pL7
-  - 69.84.182.49EuJkjfwG
-  - 93.180.134.52nAJfQkjs
-  - n1747624274.4u9ma.icukxJKfcsm
-  - v4.hdacd.comF5UA0czQ
-  - hackney-latest-strike.freesocks.workkYf2zToP
-  - 82.198.246.97j0tGh4fY
-  - chengbai02.ascwt179.comh0n6JMEs
-  - 103.111.114.82wUAjhK4I
-  - chengbai02.ascwt179.comdlI734cj
-  - n1747624274.4u9ma.icuRLSA5Bjk
-  - renderer-stream-1-411.mirra.nowENHtiGzm
-  - 121.170.203.147VPcGJXAk
-  - 47.83.221.185bJoAWsKp
-  - cs.ktmcn.netvoQu1T0e
-  - 2a02:6ea0:d32f::f8fe:349bpdtNrSG5
-  - gtm1.ktmwan.netsUpNPMjR
-  - 121.170.203.147JFVe8fjS
-  - 82.198.246.2502LuIhby8
-  - 212.192.13.9162PdV7Tr
-  - 23.236.68.161andh42fe
-  - 4cdn.njkrpl.com0dYCMG6p
-  - cs.ktmcn.netxy4Kq2Wj
-  - 103.186.154.42Isbyra8k
-  - 103.181.164.145Myn8xKuY
-  - tg.hrmp.kdns.frvwDLeZsc
-  - 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.comwLESsDIC
-  - jp07.jd.kunlunpx.como4CaA85i
-  - 2a02:6ea0:d32f::f8fe:349b3ivlcoPW
-  - tinkered-pennies-puppies.freesocks.workBEItmRCc
-  - 47.242.186.1HfNCW8ev
-  - tinkered-pennies-puppies.freesocks.workoMVO4hit
-  - 43.207.83.609DgEpqcn
-  - v10.hdacd.comIE07eW3n
-  - 4cdn.njkrpl.comFTmQjv7M
-  - 23.236.68.161x9W8Pknu
-  - 82.198.246.370yvtOoEz
-  - n1747624260.4u9ma.icubxJKNPG6
+  - jp07.jd.kunlunpx.comJhKtmVAH
+  - 47.244.120.197rthKGITb
+  - tg.hrmp.kdns.froliSFKGk
+  - 47.244.120.197val20iK5
+  - n1747624274.4u9ma.iculuvZJo7O
+  - 63.177.252.44acEoHpF7
+  - 103.111.114.71egXKHjxu
+  - gtm1.ktmwan.netomGLJPaN
+  - 103.111.114.82j4WXAQ6h
+  - v10.hdacd.comk43Hox02
+  - 121.170.203.147ysdSCon6
+  - 149.30.232.103koKgVCsF
+  - 47.244.120.197EAjItMmK
+  - v10.hdacd.comLvr9YPO5
+  - 4cdn.njkrpl.comN4uBtSWc
+  - v36.hdacd.comy8KW1d4B
+  - 82.38.31.35reaEOkoZ
+  - gtm1.ktmwan.netU90ZRdHS
+  - 3.250.25.159aTYXsI1g
+  - 210.109.205.158s4gvTc9L
+  - 1.n.c.5.h.z.q.e.d.fr01-ae5.entry.v51124-5.qponx9zGwDeQ
+  - gtm1.ktmwan.netx0iByqfk
+  - v4.hdacd.comb0QtxPVd
+  - 43.207.83.60fKkb8c1i
+  - 23.236.68.1619pVZzJFo
+  - 47.244.120.197cCfk3FjQ
+  - guanwang.awsno.comU7igSen0
+  - gtm1.ktmwan.netT6j3cISz
+  - 2001:bc8:32d7:225::3gbDujw0Q
+  - jp07.jd.kunlunpx.comDjMfmL46
+  - cs.ktmcn.netu0inoT7X
+  - 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.comp6ySWnTm
+  - 103.103.245.158qc2WUpOb
+  - 103.186.154.42LqRbawyM
+  - v10.hdacd.com5owgKHmU
+  - v4.hdacd.comEpIK8Dhd
+  - n1747624260.4u9ma.icuIvJX0Lec
+  - gtm1.ktmwan.netXaU68Rd2
+  - 47.76.127.88nK6Ypate
+  - 121.170.203.147a0xKlCeL
+  - v8.hdacd.com8w2buTHn
+  - n1747624274.4u9ma.icuZ3ryq9QB
+  - v9.heduian.linkQZO0tS3i
+  - 82.38.31.35hFf78bn9
+  - gtm1.ktmwan.netHMWJczmw
+  - gtm1.ktmwan.netKlNEOrkc
+  - 3.250.25.159iXEFPVNC
+  - 47.76.127.88Rdw6to5H
+  - gtm1.ktmwan.net6ovg0fue
+  - v9.hdacd.comjIzYPbtc
+  - v6.hdacd.com7LR1dGOX
+  - n1747624274.4u9ma.icuIjME8iWw
+  - cs.ktmcn.netd30PNWDB
+  - v6.hdacd.com3K5Okmhr
+  - n1747624260.4u9ma.icuYcMjsNqh
+  - v35.hdacd.com1BXTAZFQ
+  - 47.244.120.197cebxshYR
+  - guanwang.awsno.com2LfGF0R9
+  - 47.83.221.185VB2tcQTC
+  - 210.109.205.158zk0v2g9D
+  - 47.242.186.1o1UPZ0DT
+  - v33.hdacd.comzQOiU03B
+  - 4cdn.njkrpl.comCj7MldEF
+  - 103.186.154.42cLs41wPi
+  - v36.hdacd.comxyejh9lH
+  - v33.hdacd.comkd2SQBvT
+  - n1747624260.4u9ma.iculQsBf2RK
+  - v9.hdacd.comhOAj3au7
+  - 23.236.68.161P3wdxjnN
+  - 103.166.184.134zrSdc3vb
+  - tg.hrmp.kdns.frJ3Bqr6kf
+  - 103.103.245.158RAd1bgpU
+  - v10.hdacd.comr0Xtmgdi
+  - v9.hdacd.comyrTE1jao
+  - gtm1.ktmwan.netrfdyCVXc
+  - 4cdn.njkrpl.com7pGc9PH3
+  - 47.76.127.88oSLcv6H9
+  - 93.180.134.52aQOzGSwe
+  - cs.ktmcn.netc5wBsyRd
 - name: 🌍 国外媒体
   type: select
   proxies:
